@@ -1,0 +1,30 @@
+CREATE DATABASE WorkLineDb
+USE WorkLineDb
+-- Criar Tabela de Setores
+CREATE TABLE Setor (
+    IdSetor UNIQUEIDENTIFIER PRIMARY KEY DEFAULT ((NEWID())), 
+    Nome VARCHAR(100) NOT NULL,
+    Descricao VARCHAR(100) NOT NULL
+);
+
+-- Criar Tabela de Cargos
+CREATE TABLE Cargo (
+    IdCargo UNIQUEIDENTIFIER PRIMARY KEY DEFAULT ((NEWID())),
+    Titulo VARCHAR(100) NOT NULL,
+    Descricao VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE Funcionario (
+    IdFuncionario UNIQUEIDENTIFIER PRIMARY KEY DEFAULT ((NEWID())),
+    Nome VARCHAR(150) NOT NULL,
+    Email VARCHAR(100) UNIQUE,
+    Telefone VARCHAR(11),
+    Data_Admissao DATETIME NOT NULL,
+    Foto VARCHAR(255),
+    
+    IdSetor UNIQUEIDENTIFIER FOREIGN KEY REFERENCES Setor(IdSetor),
+    IdCargo UNIQUEIDENTIFIER FOREIGN KEY REFERENCES Cargo(IdCargo),
+);
+SELECT * FROM Setor
+SELECT * FROM Cargo
+SELECT * FROM Funcionario
