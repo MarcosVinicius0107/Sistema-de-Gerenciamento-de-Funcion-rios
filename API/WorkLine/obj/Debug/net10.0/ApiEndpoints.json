@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "WorkLine.Controllers.SetorController",
+    "Method": "Listar",
+    "RelativePath": "api/Setor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WorkLine.Controllers.SetorController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/Setor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "setor",
+        "Type": "WorkLine.DTO.SetorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WorkLine.Controllers.SetorController",
+    "Method": "Atualizar",
+    "RelativePath": "api/Setor/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "setor",
+        "Type": "WorkLine.DTO.SetorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WorkLine.Controllers.SetorController",
+    "Method": "Deletar",
+    "RelativePath": "api/Setor/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WorkLine.Controllers.SetorController",
+    "Method": "BuscarPorId",
+    "RelativePath": "api/Setor/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
