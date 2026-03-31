@@ -10,6 +10,8 @@ builder.Services.AddDbContext<WorkLineContext>(options => options.UseSqlServer(b
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 builder.Services.AddScoped<ISetorRepository, SetorRepository>();
+builder.Services.AddScoped<ICargoRepository, CargoRepository>();
+builder.Services.AddScoped<IFuncionarioRepository, FuncionarioRepository>();
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddSwaggerGen(options =>

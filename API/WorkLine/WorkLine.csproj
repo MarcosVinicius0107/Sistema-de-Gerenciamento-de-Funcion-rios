@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\imagens\25ae45a1-d0d8-4731-add2-6e01b802fe38.png" />
+    <Content Remove="wwwroot\imagens\57e8a665-7b60-48f1-bdc7-264203989bb7.png" />
+    <Content Remove="wwwroot\imagens\6900df64-b553-4dc1-930c-f4c11604205d.png" />
+    <Content Remove="wwwroot\imagens\b4a49634-05e5-429a-859b-5c015ceb3d3c.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.5" />
@@ -15,6 +22,10 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\imagens\" />
   </ItemGroup>
 
 </Project>
