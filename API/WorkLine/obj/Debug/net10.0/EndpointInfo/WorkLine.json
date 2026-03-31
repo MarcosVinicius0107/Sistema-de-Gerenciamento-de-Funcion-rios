@@ -32,19 +32,25 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/CargoDTO"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CargoDTO"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CargoDTO"
+                "type": "object",
+                "properties": {
+                  "Titulo": {
+                    "type": "string"
+                  },
+                  "Descricao": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "Titulo": {
+                  "style": "form"
+                },
+                "Descricao": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -74,19 +80,25 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/CargoDTO"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CargoDTO"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CargoDTO"
+                "type": "object",
+                "properties": {
+                  "Titulo": {
+                    "type": "string"
+                  },
+                  "Descricao": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "Titulo": {
+                  "style": "form"
+                },
+                "Descricao": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -133,6 +145,51 @@
             }
           }
         ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "IdCargo": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "Titulo": {
+                    "maxLength": 100,
+                    "minLength": 0,
+                    "type": "string"
+                  },
+                  "Descricao": {
+                    "maxLength": 100,
+                    "minLength": 0,
+                    "type": "string"
+                  },
+                  "Funcionarios": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/Funcionario"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "IdCargo": {
+                  "style": "form"
+                },
+                "Titulo": {
+                  "style": "form"
+                },
+                "Descricao": {
+                  "style": "form"
+                },
+                "Funcionarios": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -362,19 +419,25 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/SetorDTO"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/SetorDTO"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/SetorDTO"
+                "type": "object",
+                "properties": {
+                  "Nome": {
+                    "type": "string"
+                  },
+                  "Descricao": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "Nome": {
+                  "style": "form"
+                },
+                "Descricao": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -404,19 +467,25 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/SetorDTO"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/SetorDTO"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/SetorDTO"
+                "type": "object",
+                "properties": {
+                  "Nome": {
+                    "type": "string"
+                  },
+                  "Descricao": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "Nome": {
+                  "style": "form"
+                },
+                "Descricao": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -437,11 +506,30 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "format": "uuid"
+                  }
+                }
+              },
+              "encoding": {
+                "id": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -458,11 +546,30 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "format": "uuid"
+                  }
+                }
+              },
+              "encoding": {
+                "id": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -473,29 +580,113 @@
   },
   "components": {
     "schemas": {
-      "CargoDTO": {
+      "Cargo": {
         "type": "object",
         "properties": {
+          "idCargo": {
+            "type": "string",
+            "format": "uuid"
+          },
           "titulo": {
+            "maxLength": 100,
+            "minLength": 0,
             "type": "string",
             "nullable": true
           },
           "descricao": {
+            "maxLength": 100,
+            "minLength": 0,
             "type": "string",
+            "nullable": true
+          },
+          "funcionarios": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Funcionario"
+            },
             "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "SetorDTO": {
+      "Funcionario": {
         "type": "object",
         "properties": {
+          "idFuncionario": {
+            "type": "string",
+            "format": "uuid"
+          },
           "nome": {
+            "maxLength": 150,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "telefone": {
+            "maxLength": 11,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "dataAdmissao": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "foto": {
+            "maxLength": 255,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "idSetor": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "idCargo": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "idCargoNavigation": {
+            "$ref": "#/components/schemas/Cargo"
+          },
+          "idSetorNavigation": {
+            "$ref": "#/components/schemas/Setor"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Setor": {
+        "type": "object",
+        "properties": {
+          "idSetor": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "nome": {
+            "maxLength": 100,
+            "minLength": 0,
             "type": "string",
             "nullable": true
           },
           "descricao": {
+            "maxLength": 100,
+            "minLength": 0,
             "type": "string",
+            "nullable": true
+          },
+          "funcionarios": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Funcionario"
+            },
             "nullable": true
           }
         },

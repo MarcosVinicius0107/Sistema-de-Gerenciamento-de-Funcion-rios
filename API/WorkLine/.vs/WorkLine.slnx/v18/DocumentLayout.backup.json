@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\50055487858\\Desktop\\Sistema-de-Gerenciamento-de-Funcion-rios\\API\\WorkLine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|c:\\users\\50055487858\\desktop\\sistema-de-gerenciamento-de-funcion-rios\\api\\workline\\repositories\\funcionariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|solutionrelative:repositories\\funcionariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|c:\\users\\50055487858\\desktop\\sistema-de-gerenciamento-de-funcion-rios\\api\\workline\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|c:\\users\\50055487858\\desktop\\sistema-de-gerenciamento-de-funcion-rios\\api\\workline\\controllers\\setorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|solutionrelative:controllers\\setorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|c:\\users\\50055487858\\desktop\\sistema-de-gerenciamento-de-funcion-rios\\api\\workline\\controllers\\cargocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|solutionrelative:controllers\\cargocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|c:\\users\\50055487858\\desktop\\sistema-de-gerenciamento-de-funcion-rios\\api\\workline\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,24 +23,16 @@
       "RelativeMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|solutionrelative:interfaces\\ifuncionariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|c:\\users\\50055487858\\desktop\\sistema-de-gerenciamento-de-funcion-rios\\api\\workline\\repositories\\cargorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|solutionrelative:repositories\\cargorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|c:\\users\\50055487858\\desktop\\sistema-de-gerenciamento-de-funcion-rios\\api\\workline\\dto\\funcionariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|solutionrelative:dto\\funcionariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|c:\\users\\50055487858\\desktop\\sistema-de-gerenciamento-de-funcion-rios\\api\\workline\\controllers\\setorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|solutionrelative:controllers\\setorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|c:\\users\\50055487858\\desktop\\sistema-de-gerenciamento-de-funcion-rios\\api\\workline\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|c:\\users\\50055487858\\desktop\\sistema-de-gerenciamento-de-funcion-rios\\api\\workline\\controllers\\cargocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|solutionrelative:controllers\\cargocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|c:\\users\\50055487858\\desktop\\sistema-de-gerenciamento-de-funcion-rios\\api\\workline\\repositories\\cargorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|solutionrelative:repositories\\cargorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|c:\\users\\50055487858\\desktop\\sistema-de-gerenciamento-de-funcion-rios\\api\\workline\\repositories\\funcionariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|solutionrelative:repositories\\funcionariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A045BA67-C497-7C76-7FB9-8ADD29F938B2}|WorkLine.csproj|c:\\users\\50055487858\\desktop\\sistema-de-gerenciamento-de-funcion-rios\\api\\workline\\repositories\\setorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,33 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FuncionarioController.cs",
-              "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Sistema-de-Gerenciamento-de-Funcion-rios\\API\\WorkLine\\Controllers\\FuncionarioController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FuncionarioController.cs",
-              "ToolTip": "C:\\Users\\50055487858\\Desktop\\Sistema-de-Gerenciamento-de-Funcion-rios\\API\\WorkLine\\Controllers\\FuncionarioController.cs",
-              "RelativeToolTip": "Controllers\\FuncionarioController.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAqwJoAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T11:52:08.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FuncionarioDTO.cs",
-              "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Sistema-de-Gerenciamento-de-Funcion-rios\\API\\WorkLine\\DTO\\FuncionarioDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\FuncionarioDTO.cs",
-              "ToolTip": "C:\\Users\\50055487858\\Desktop\\Sistema-de-Gerenciamento-de-Funcion-rios\\API\\WorkLine\\DTO\\FuncionarioDTO.cs",
-              "RelativeToolTip": "DTO\\FuncionarioDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T11:49:28.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "FuncionarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Sistema-de-Gerenciamento-de-Funcion-rios\\API\\WorkLine\\Repositories\\FuncionarioRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\FuncionarioRepository.cs",
@@ -120,38 +94,37 @@
               "RelativeToolTip": "Repositories\\FuncionarioRepository.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwBwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T11:35:04.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T11:35:04.961Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Sistema-de-Gerenciamento-de-Funcion-rios\\API\\WorkLine\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\50055487858\\Desktop\\Sistema-de-Gerenciamento-de-Funcion-rios\\API\\WorkLine\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABMAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T18:37:47.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "SetorController.cs",
               "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Sistema-de-Gerenciamento-de-Funcion-rios\\API\\WorkLine\\Controllers\\SetorController.cs",
               "RelativeDocumentMoniker": "Controllers\\SetorController.cs",
-              "ToolTip": "C:\\Users\\50055487858\\Desktop\\Sistema-de-Gerenciamento-de-Funcion-rios\\API\\WorkLine\\Controllers\\SetorController.cs",
-              "RelativeToolTip": "Controllers\\SetorController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAuwE0AAAAqAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\50055487858\\Desktop\\Sistema-de-Gerenciamento-de-Funcion-rios\\API\\WorkLine\\Controllers\\SetorController.cs*",
+              "RelativeToolTip": "Controllers\\SetorController.cs*",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAowFMAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T18:55:18.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "IFuncionarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Sistema-de-Gerenciamento-de-Funcion-rios\\API\\WorkLine\\Interfaces\\IFuncionarioRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IFuncionarioRepository.cs",
@@ -159,21 +132,43 @@
               "RelativeToolTip": "Interfaces\\IFuncionarioRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T11:30:55.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T11:30:55.918Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "CargoRepository.cs",
               "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Sistema-de-Gerenciamento-de-Funcion-rios\\API\\WorkLine\\Repositories\\CargoRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\CargoRepository.cs",
               "ToolTip": "C:\\Users\\50055487858\\Desktop\\Sistema-de-Gerenciamento-de-Funcion-rios\\API\\WorkLine\\Repositories\\CargoRepository.cs",
               "RelativeToolTip": "Repositories\\CargoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwDIAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T19:38:34.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T19:38:34.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FuncionarioController.cs",
+              "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Sistema-de-Gerenciamento-de-Funcion-rios\\API\\WorkLine\\Controllers\\FuncionarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FuncionarioController.cs",
+              "ToolTip": "C:\\Users\\50055487858\\Desktop\\Sistema-de-Gerenciamento-de-Funcion-rios\\API\\WorkLine\\Controllers\\FuncionarioController.cs",
+              "RelativeToolTip": "Controllers\\FuncionarioController.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAuwGgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T11:52:08.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FuncionarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Sistema-de-Gerenciamento-de-Funcion-rios\\API\\WorkLine\\DTO\\FuncionarioDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\FuncionarioDTO.cs",
+              "ToolTip": "C:\\Users\\50055487858\\Desktop\\Sistema-de-Gerenciamento-de-Funcion-rios\\API\\WorkLine\\DTO\\FuncionarioDTO.cs",
+              "RelativeToolTip": "DTO\\FuncionarioDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T11:49:28.233Z"
             },
             {
               "$type": "Document",
@@ -185,21 +180,19 @@
               "RelativeToolTip": "Models\\Setor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T19:11:58.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T19:11:58.537Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "CargoController.cs",
               "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Sistema-de-Gerenciamento-de-Funcion-rios\\API\\WorkLine\\Controllers\\CargoController.cs",
               "RelativeDocumentMoniker": "Controllers\\CargoController.cs",
               "ToolTip": "C:\\Users\\50055487858\\Desktop\\Sistema-de-Gerenciamento-de-Funcion-rios\\API\\WorkLine\\Controllers\\CargoController.cs",
               "RelativeToolTip": "Controllers\\CargoController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAIwHIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwGkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T11:15:45.534Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T11:15:45.534Z"
             },
             {
               "$type": "Document",
@@ -211,8 +204,7 @@
               "RelativeToolTip": "Interfaces\\ICargoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T19:37:23.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T19:37:23.884Z"
             },
             {
               "$type": "Document",
@@ -224,8 +216,7 @@
               "RelativeToolTip": "Repositories\\SetorRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T18:46:52.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T18:46:52.097Z"
             },
             {
               "$type": "Document",
@@ -237,8 +228,7 @@
               "RelativeToolTip": "DTO\\SetorDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T18:57:51.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T18:57:51.185Z"
             },
             {
               "$type": "Document",
@@ -262,8 +252,7 @@
               "RelativeToolTip": "DTO\\CargoDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T11:14:48.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T11:14:48.128Z"
             },
             {
               "$type": "Document",

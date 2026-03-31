@@ -37,7 +37,7 @@ public class SetorController : ControllerBase
     /// <param name="setor">Dados do setor cadastrado</param>
     /// <returns>Status code 200 com os dados do setor cadastrado</returns>
     [HttpPost]
-    public IActionResult Cadastrar(SetorDTO setor)
+    public IActionResult Cadastrar([FromForm] SetorDTO setor)
     {
         try
         {
@@ -61,7 +61,7 @@ public class SetorController : ControllerBase
     /// <param name="setor">Dados do setor atualiazado</param>
     /// <returns>Status code 200 com os dados do setor atualizado</returns>
     [HttpPut("{id}")]
-    public IActionResult Atualizar(Guid id, SetorDTO setor)
+    public IActionResult Atualizar(Guid id, [FromForm] SetorDTO setor)
     {
         try
         {
@@ -84,7 +84,7 @@ public class SetorController : ControllerBase
     /// <param name="id">Id do setor a ser deletado</param> 
     /// <returns>Status code 204</returns>
     [HttpDelete("{id}")]
-    public IActionResult Deletar(Guid id)
+    public IActionResult Deletar([FromForm] Guid id)
     {
         try
         {
@@ -102,7 +102,7 @@ public class SetorController : ControllerBase
     /// <param name="id">Id do setor a ser buscado</param>
     /// <returns>Status code 200 com os dados do setor buscado</returns>
     [HttpGet("{id}")]
-    public IActionResult BuscarPorId(Guid id)
+    public IActionResult BuscarPorId([FromForm] Guid id)
     {
         try
         {            

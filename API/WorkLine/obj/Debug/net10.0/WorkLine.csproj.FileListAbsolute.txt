@@ -161,3 +161,4 @@ C:\Users\50055487858\Desktop\Sistema-de-Gerenciamento-de-Funcion-rios\API\WorkLi
 C:\Users\50055487858\Desktop\Sistema-de-Gerenciamento-de-Funcion-rios\API\WorkLine\obj\Debug\net10.0\WorkLine.genruntimeconfig.cache
 C:\Users\50055487858\Desktop\Sistema-de-Gerenciamento-de-Funcion-rios\API\WorkLine\obj\Debug\net10.0\ref\WorkLine.dll
 C:\Users\50055487858\Desktop\Sistema-de-Gerenciamento-de-Funcion-rios\API\WorkLine\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\50055487858\Desktop\Sistema-de-Gerenciamento-de-Funcion-rios\API\WorkLine\bin\Debug\net10.0\WorkLine.staticwebassets.runtime.json

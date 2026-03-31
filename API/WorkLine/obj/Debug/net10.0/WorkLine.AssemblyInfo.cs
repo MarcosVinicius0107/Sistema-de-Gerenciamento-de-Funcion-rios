@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WorkLine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3747c9b50061f4f1decbe1c471c25aa000626c8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ddd28756a32e82eaad4c6e117f1d808c036071f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("WorkLine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WorkLine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -18,9 +18,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "cargo",
-        "Type": "WorkLine.DTO.CargoDTO",
-        "IsRequired": true
+        "Name": "Titulo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Descricao",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -39,9 +44,14 @@
         "IsRequired": true
       },
       {
-        "Name": "cargo",
-        "Type": "WorkLine.DTO.CargoDTO",
-        "IsRequired": true
+        "Name": "Titulo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Descricao",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -74,6 +84,26 @@
         "Name": "id",
         "Type": "System.Guid",
         "IsRequired": true
+      },
+      {
+        "Name": "IdCargo",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Titulo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Descricao",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Funcionarios",
+        "Type": "System.Collections.Generic.ICollection\u00601[[WorkLine.Models.Funcionario, WorkLine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -236,9 +266,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "setor",
-        "Type": "WorkLine.DTO.SetorDTO",
-        "IsRequired": true
+        "Name": "Nome",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Descricao",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -257,9 +292,14 @@
         "IsRequired": true
       },
       {
-        "Name": "setor",
-        "Type": "WorkLine.DTO.SetorDTO",
-        "IsRequired": true
+        "Name": "Nome",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Descricao",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -275,6 +315,11 @@
       {
         "Name": "id",
         "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -291,6 +336,11 @@
       {
         "Name": "id",
         "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "",
         "IsRequired": true
       }
     ],

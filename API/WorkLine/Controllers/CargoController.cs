@@ -37,7 +37,7 @@ public class CargoController : ControllerBase
     /// <param name="cargo">Dados do cargo a ser cadastrado</param>
     /// <returns>Status code 200 e o cargo cadastrado</returns>
     [HttpPost]
-    public IActionResult Cadastrar(CargoDTO cargo)
+    public IActionResult Cadastrar([FromForm] CargoDTO cargo)
     {
         try
         {
@@ -61,7 +61,7 @@ public class CargoController : ControllerBase
     /// <param name="cargo">Dados do cargo atualizado</param>
     /// <returns>Status code 200 e o cargo atualizado</returns>
     [HttpPut("{id}")]
-    public IActionResult Atualizar(Guid id, CargoDTO cargo)
+    public IActionResult Atualizar(Guid id, [FromForm] CargoDTO cargo)
     {
         try
         {
@@ -102,7 +102,7 @@ public class CargoController : ControllerBase
     /// <param name="id">Id do cargo a ser buscado</param>
     /// <returns>Status code 200 e os dados do cargo buscado</returns>
     [HttpGet("{id}")]
-    public IActionResult BuscarPorId(Guid id)
+    public IActionResult BuscarPorId(Guid id, [FromForm] Cargo cargo)
     {
         try
         {
